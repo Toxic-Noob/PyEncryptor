@@ -278,7 +278,7 @@ def update():
         psb("\n\033[92m    [\033[37m!\033[92m] Tool Update Found!!")
         psb("\033[92m    [\033[37m*\033[92m] Updating Tool...")
         os.system("cd .. && rm -rf PyEncryptor && git clone https://github.com/Toxic-Noob/PyEncryptor > /dev/null 2>&1")
-        psb("\033[92m    [\033[37m*\033[92m] Tool Updated Successfully!")
+        psb("\n\033[92m    [\033[37m*\033[92m] Tool Updated Successfully!")
         psb("\033[92m    [\033[37m*\033[92m] Starting Latest Version of PyEncryptor...")
         time.sleep(1)
         os.system("cd .. && cd PyEncryptor && python PyEnc.py")
