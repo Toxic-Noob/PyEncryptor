@@ -182,7 +182,7 @@ def getFile():
     
     global fileName
     if ("/" in path):
-        fileName = path.split("/")[-1:]
+        fileName = path.split("/")[-1]
     else:
         fileName = path
     
