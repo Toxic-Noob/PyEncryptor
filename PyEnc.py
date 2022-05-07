@@ -271,7 +271,7 @@ def update():
         update()
     if (toolVersion == mainVersion):
         psb("\n\033[92m    [\033[37m*\033[92m] You are Using the Latest Version of PyEncryptor!")
-        l = input("\033[92m    [\033[37m*\033[92m] Press Enter To Go Back....")
+        l = verInput("\033[92m    [\033[37m*\033[92m] Press Enter To Go Back....")
         logo()
         main()
     else:
