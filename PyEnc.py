@@ -259,7 +259,10 @@ def update():
     psb("\n\033[92m    [\033[37m*\033[92m] Please Wait!")
     psb("\033[92m    [\033[37m*\033[92m] Checking Update...")
     import requests
-    toolVersion = open(".version", "r").read()
+    try:
+        toolVersion = open(".version", "r").read()
+    except:
+        toolVersion = "ToxicNoob"
     try:
         mainVersion = requests.get("https://raw.githubusercontent.com/Toxic-Noob/PyEncryptor/main/.version").text
     except:
