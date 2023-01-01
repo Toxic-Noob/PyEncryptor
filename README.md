@@ -1,5 +1,5 @@
-# PyEncryptor V2.0
-A Python Script To Encode Your Python Scripts.
+# PyEncryptor V3.0
+A Python Tool To Encode Your Python Scripts.
 
 ### Supports :
 Both Python2 and Python3
@@ -13,9 +13,9 @@ Both Python2 and Python3
 
 [04] Python Bytecode (.pyc)
 
-[05] Marshal + Zlib + Base64
+[05] Marshal + Zlib + Base64 (At Once)
 
-[06] Hard Encode
+[06] Marshal + Zlib + Base64 (One By One)
 
 ## Installation Commands :
 ``` shell script
