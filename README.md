@@ -40,7 +40,7 @@ python2 PyEnc.py
 python PyEnc.py
 ```
 ## ScreenShot:
-<img src="https://g.top4top.io/p_2318ksc3m0.jpg" alt="PyEncryptor">
+<img src="https://h.top4top.io/p_2557dnwon0.jpg" alt="PyEncryptor Screenshot">
 
 ## Enjoy 💞💞
 
